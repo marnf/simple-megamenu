@@ -1,0 +1,25 @@
+.dropdown-menu ul li{ 
+  list-style: none; 
+  text-align: center;
+}
+
+.items-container{
+  display: flex
+    
+}
+
+
+@media (max-width: 600px) { 
+  .items-container{
+    display: grid;
+    grid-template-columns:auto auto;
+  }
+  
+ }
+
+ @media (max-width: 400px) {
+  .items-container{
+    display: grid;
+    grid-template-columns: auto;
+  }
+ }
